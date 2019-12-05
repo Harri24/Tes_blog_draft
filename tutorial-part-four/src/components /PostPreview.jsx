@@ -13,9 +13,9 @@ const PostPreview = ({ node, extraClasses }) => {
         <Link to={path}>{title}</Link>
       </h2>
       <div>
-        <div>{date}</div>x
+        <div>{date}</div>
         {isBlog &&
-            <Link>
+            <Link to="/blog-index">
               <div>Blog</div>
             </Link>}
           </div>
